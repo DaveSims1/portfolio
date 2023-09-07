@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Sims Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8f269aa8d.js" crossorigin="anonymous"></script>
+    <script src="jsfile.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <span class="name">David Sims</span>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-caret-down" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Co-op Student</p>
+                <h1>Welcome, <br>I'm <span>David Sims</span></h1>
+            </div>
+        </div>
+    </div>
+    <!--About Section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutMe-col-1">
+                    <img src="images/myself.JPG">
+                </div>
+                <div class="aboutMe-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+                        Test Test Test Test Test Test Test Test 
+                        Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+                        Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>Centennial College SET</span><br>Program Information</li>
+                            <li><span>Georgian College RPN</span><br>Program Information</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Experience</span><br>experience Information</li>
+                            <li><span>Experience</span><br>experience Information</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Soft Skills</span><br>skills Information</li>
+                            <li><span>Hard Skills</span><br>skills Information</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-scroll"></i>
+                    <h2>Project title 1</h2>
+                    <p>test test test test test test test test test test test test </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>Project title 2</h2>
+                    <p>test test test test test test test test test test test test </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-ghost"></i>
+                    <h2>Project title 3</h2>
+                    <p>test test test test test test test test test test test test </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--Contact section-->
+
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-share"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sims-david"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/DaveSims1"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; David Sims. 2023</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
