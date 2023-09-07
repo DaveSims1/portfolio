@@ -14,10 +14,10 @@
             <nav>
                 <span class="name">David Sims</span>
                 <ul id="sidemenu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <i class="fa-regular fa-circle-xmark" onclick="closeMenu()"></i>
                 </ul>
                 <i class="fa-solid fa-caret-down" onclick="openMenu()"></i>
@@ -72,10 +72,10 @@
     </div>
 
     <!--Services-->
-    <div id="services">
+    <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">Portfolio</h1>
-            <div class="services-list">
+            <div class="portfolio-list">
                 <div>
                     <i class="fa-solid fa-scroll"></i>
                     <h2>Project title 1</h2>
@@ -98,7 +98,7 @@
 
 <!--Contact section-->
 
-    <div id="Contact">
+    <div id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
@@ -112,12 +112,13 @@
                     <a href="" class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="text" name="email" placeholder="Your E-mail" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="text" name="email" placeholder="E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
