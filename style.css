@@ -59,6 +59,13 @@ nav ul li a::after{
     bottom: -6px;
     transition: 0.3s;
 }
+.name{
+    font-size: 20px;
+}
+
+.lastName{
+    color: #66fcf1;
+}
 
 nav ul li a:hover::after{
     width: 100%;
@@ -146,7 +153,7 @@ nav ul li a:hover::after{
 
 .tab-contents ul li span{
     color: #45a29e;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tab-contents{
