@@ -208,6 +208,7 @@ nav ul li a:hover::after{
 
 .portfolio-list div:hover{
     background: #45a29e;
+    color: #fff;
     transform: translateY(-10px);
 }
 
