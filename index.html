@@ -23,8 +23,8 @@
                 <i class="fa-solid fa-caret-down" onclick="openMenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Co-op Student</p>
                 <h1>Welcome, <br>I'm <span>David Sims</span></h1>
+                <p>Co-op Student</p>
             </div>
         </div>
     </div>
@@ -37,29 +37,31 @@
                 </div>
                 <div class="aboutMe-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p> Hello, my name is David. I'm a Software Engineering student at Centennial College in Ontario. 
-                        I've just entered my second year in this advanced diploma program which includes a co-op. Throughout
+                    <p> Hello, my name is David. I am a Software Engineering student at Centennial College in Ontario. 
+                        I have just entered my second year in this advanced diploma program which includes a co-op. Throughout
                         my time in this program I have gained incredibly valuable skills to help me pursue a Software Engineering career.
                         <br><br>
-                        Within this program I have been able to work effectively with teams to develop, troubleshoot, and enhance code that we work on.
-                        During this work I have been able to develop technicald design documents, undergo the development process, facilitate meetings, and 
-                        preset our work to a class of peers.
+                        Within this program, I have been able to work effectively in teams to develop, troubleshoot, and enhance code.
+                        During this work I have been able to develop technical design documents, undergo the development process, facilitate meetings, and 
+                        present our work to a class of peers.
                         <br><br>
-                        Working within the Software Development Life Cycle I have been able to incorporate and learn about such processes as Agile, Waterfall, and Iterative methods.
-                        Throughout this program we have worked hands on with programming, testing, and submitting developed projects in such languages as, C#, Java, NodeJS, Javascript, SQL, 
-                        and HTML/CSS.
+                        Working within the Software Development Life Cycle, I have been able to incorporate and learn about programming processes such as Agile, Waterfall, and Iterative methods.
+                        Throughout this program I have worked hands on with programming, testing, and submitting developed projects in languages
+                        and libraries such as: C#, Java, NodeJS, RobotJS, JavaScript, SQL, and HTML/CSS.
                          
 
                     </p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        
+                        
                     </div>
                     <div class="tab-contents active-tab" id="education">
                         <ul>
-                            <li><span>Centennial College | Software Engineering Technologies</span><br>Maintaing a GPA of 4.2<br><br>Gained experience in working on a team, developing and presenting technical
+                            <li><span>Centennial College | Software Engineering Technologies</span><br><strong>Maintaing a GPA of 4.2</strong><br><br>Gained experience in working on a team, developing, and presenting technical
                             documents as well as developing code, troubleshooting with issues that arise, and assist in translating requirements into functional and non-functional 
                             specifications.<br><br> Working with an agile Software Development methods including: SCRUM, Kanban, and Waterfall methods. During these development
                             processes I would work to estimate tasks we may require to perform the coding, testing, and designing. <br><br> Gained
@@ -129,14 +131,14 @@
                     <p>This Newsletter webpage programmed using Javascript and HTML/CSS, is used to collect user information into a database. Once information
                         has been collected the hosts of the website are then able to send out there company NewsLetter to the email list they have obatined. 
                     </p>
-                    <a href="https://github.com/DaveSims1/NewsletterPage">View Source Code</a>
+                    <a href="https://github.com/DaveSims1/NewsletterPage/blob/main/index.html">View Source Code</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-ghost"></i>
                     <h2>Ghost Clicker</h2>
                     <p>This web based game is coded in HTML/CSS and Javascript. In this game you play with your cursor where you
                     click on a ghost which pops up every so often. The more you successfully click the ghost the faster it moves across the area. </p>
-                    <a href="https://github.com/DaveSims1/GhostClicker">View Source Code</a>
+                    <a href="https://github.com/DaveSims1/GhostClicker/blob/main/Assignment3.html">View Source Code</a>
                 </div>
             </div>
         </div>
@@ -155,14 +157,14 @@
                         <a href="https://www.linkedin.com/in/sims-david"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://github.com/DaveSims1"><i class="fa-brands fa-github"></i></a>
                     </div>
-                    <a href="" class="btn btn2">Download CV</a>
+                    <a href="./images/DavidSimsResume.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Name" required>
                         <input type="text" name="email" placeholder="E-mail" required>
                         <textarea name="Message" rows="6" placeholder="Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
+                        <button type="submit" class="btn btn2" id="submitButton">Submit</button>
                     </form>
                     <span id="msg"></span>
                 </div>
